@@ -2,7 +2,7 @@
 
 Name:		flpsed
 Version:	0.7.0
-Release:	%mkrel 1
+Release:	%mkrel 2
 Summary:	WYSIWYG pseudo PostScript editor
 License:	GPLv2
 Group:		Office
@@ -12,8 +12,8 @@ Source1:	flpsed.desktop
 Patch0:		flpsed-0.7.0-sfmt.patch
 Requires:	ghostscript
 Requires:	poppler
-BuildRequires:	libfltk-devel >= 1.3.0
-BuildRequires:	libxft-devel
+BuildRequires:	fltk-devel >= 1.3.0
+BuildRequires:	pkgconfig(xft)
 BuildRequires:	desktop-file-utils
 BuildRequires:	lsb-build-base-devel
 BuildRequires:	X11-devel
