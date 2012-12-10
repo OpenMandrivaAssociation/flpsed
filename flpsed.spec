@@ -52,3 +52,11 @@ filling in forms, adding notes etc.
 %{_datadir}/applications/*
 %{_mandir}/man1/flpsed.1*
 
+
+
+%changelog
+* Tue Feb 28 2012 Andrey Bondrov <abondrov@mandriva.org> 0.7.0-2mdv2012.0
++ Revision: 781242
+- Update BuildRequires
+- imported package flpsed
+
