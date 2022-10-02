@@ -1,12 +1,13 @@
 Summary:	A Postscript and PDF annotator
 Name:		flpsed
 Version:	0.7.3
-Release:	1
+Release:	2
 License:	GPLv3+
 Group:		Office
 URL:		http://flpsed.org/%{name}.html
 Source0:	http://flpsed.org/%{name}-%{version}.tar.gz
 Patch0:		%{name}-0.7.3-add-font-size.patch
+Patch1:		%{name}-0.7.3-fix_warnings.patch
 
 BuildRequires:	fltk-devel
 BuildRequires: 	imagemagick
