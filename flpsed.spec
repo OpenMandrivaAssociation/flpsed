@@ -1,7 +1,7 @@
 Summary:	A Postscript and PDF annotator
 Name:		flpsed
 Version:	0.7.3
-Release:	2
+Release:	3
 License:	GPLv3+
 Group:		Office
 URL:		https://flpsed.org/%{name}.html
