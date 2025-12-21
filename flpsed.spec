@@ -9,6 +9,11 @@ Source0:	https://flpsed.org/%{name}-%{version}.tar.gz
 Patch0:		%{name}-0.7.3-add-font-size.patch
 Patch1:		%{name}-0.7.3-fix_warnings.patch
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	desktop-file-utils
 BuildRequires:	fltk-devel
 BuildRequires: 	imagemagick
